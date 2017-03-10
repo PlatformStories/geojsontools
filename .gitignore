@@ -1,0 +1,5 @@
+geojson_tools.egg-info/
+dist/
+/build
+.DS_Store
+
