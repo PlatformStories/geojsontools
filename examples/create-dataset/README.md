@@ -1,19 +1,19 @@
-# Using geojson_tools to manipulate a training dataset
+# Using geojsontools to manipulate a training dataset
 
 In this example we begin with a geojson of AOIs that we would like to use to train a classifier. To prepare for training we must classify each AOI, separate the ground truth into train and test data, and potentially create a balanced set to train on if our model is sensitive to class imbalance.
 
-Here we use geojson_tools to accomplish these tasks. In this walkthrough you will start with the following files, which can be found in the sample-dataset folder:  
+Here we use geojsontools to accomplish these tasks. In this walkthrough you will start with the following files, which can be found in the sample-dataset folder:  
 
-1. <b>[features.geojson](https://github.com/PlatformStories/geojson_tools/blob/master/examples/create-dataset/features.geojson)</b> - A collection of AOIs that contain the geometries and feature ids of our training data.  
+1. <b>[features.geojson](https://github.com/PlatformStories/geojsontools/blob/master/examples/create-dataset/features.geojson)</b> - A collection of AOIs that contain the geometries and feature ids of our training data.  
 2. <b>classes.pkl</b> - A pickled list of class names ('Buildings' or 'No Buildings') associated with each AOI.
 
 We will combine the above two files to create our ground truth dataset and then further manipulate that geojson to create train, test, and balanced datasets.
 
-1. Begin by importing geojson_tools and loading the list of class names from classes.pkl.
+1. Begin by importing geojsontools and loading the list of class names from classes.pkl.
 
     ```python
     import numpy, pickle
-    import geojson_tools as gt
+    import geojsontools as gt
 
     # Load the list of ground truth classes
     with open('classes.pkl', 'r') as f:

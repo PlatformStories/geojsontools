@@ -1,4 +1,4 @@
-# geojson_tools
+# geojsontools
 
 A collection of functions for manipulating [geojsons](http://geojson.org/).
 
@@ -44,16 +44,16 @@ Upgrade pip (if required):
 pip install pip --upgrade
 ```
 
-Install geojson_tools:
+Install geojsontools:
 
 ```bash
-pip install geojson_tools
+pip install geojsontools
 ```
 
 Optional: you can install the current version of the master branch with:
 
 ```bash
-pip install git+https://github.com/platformstories/geojson_tools
+pip install git+https://github.com/platformstories/geojsontools
 ```
 
 Keep in mind that the master branch is constantly under development.
@@ -70,8 +70,8 @@ source activate env
 Clone the repo:
 
 ```bash
-git clone https://github.com/digitalglobe/geojson_tools
-cd geojson_tools
+git clone https://github.com/digitalglobe/geojsontools
+cd geojsontools
 ```
 
 Install the requirements:

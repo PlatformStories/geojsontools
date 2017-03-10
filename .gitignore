@@ -1,5 +1,4 @@
-geojson_tools.egg-info/
+geojsontools.egg-info/
 dist/
 /build
 .DS_Store
-
