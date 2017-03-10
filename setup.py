@@ -11,7 +11,7 @@ if sys.version_info > (3,):
 # long_description=readme,
 
 setup(name='geojsontools',
-      version='0.0.2',
+      version='0.0.3',
       description='Functions for manipulating geojsons',
       classifiers=[],
       keywords='',
