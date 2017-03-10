@@ -1,7 +1,7 @@
 # Create training and test data sets
 
 In this example, we use geosjontools to create training and test data sets which can be used for machine learning.
-There are two files in this folder: [features.geojson](https://github.com/PlatformStories/geojsontools/blob/master/examples/create-dataset/features.geojson), which contains a number of geometries, each indexed by a feature id, and classes.pkl, a pickled list of class names corresponding to the geometries in features.geojson.
+There are two files in this folder: [features.geojson](https://github.com/PlatformStories/geojsontools/blob/master/example/features.geojson), which contains a number of geometries, each indexed by a feature id, and classes.pkl, a pickled list of class names corresponding to the geometries in features.geojson.
 
 1. Import geojsontools and load the list of class names from classes.pkl.
 
