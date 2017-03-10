@@ -1,5 +1,7 @@
 # geojsontools
 
+[![PyPI version](https://badge.fury.io/py/geojsontools.svg)](https://badge.fury.io/py/geojsontools)
+
 A collection of functions for manipulating [geojsons](http://geojson.org/).
 
 ## Installation/Usage
