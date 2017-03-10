@@ -10,14 +10,14 @@ if sys.version_info > (3,):
 
 # long_description=readme,
 
-setup(name='geojson_tools',
+setup(name='geojsontools',
       version='0.0.1',
       description='Functions for manipulating geojsons',
       classifiers=[],
       keywords='',
       author='Nikki Aldeborgh',
       author_email='nikki.aldeborgh@digitalglobe.com',
-      url='https://github.com/platformstories/geojson_tools',
+      url='https://github.com/platformstories/geojsontools',
       license='MIT',
       packages=find_packages(),
       include_package_data=True,
