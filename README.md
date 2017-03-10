@@ -2,7 +2,7 @@
 
 [![PyPI version](https://badge.fury.io/py/geojsontools.svg)](https://badge.fury.io/py/geojsontools)
 
-A collection of functions for manipulating [geojsons](http://geojson.org/).
+A collection of functions for manipulating [geojson](http://geojson.org/) files.
 
 
 ## Installation/Usage
