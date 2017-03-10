@@ -7,7 +7,7 @@ A collection of functions for manipulating [geojsons](http://geojson.org/).
 
 ## Installation/Usage
 
-In a virtualenv or conda virtual environment, do
+In a virtualenv or conda virtual environment:
 
 ```bash
 pip install geojsontools
