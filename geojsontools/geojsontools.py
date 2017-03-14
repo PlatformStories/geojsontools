@@ -209,7 +209,7 @@ def create_train_test(input_file, output_file=None, test_size=0.2):
     test_out, train_out = 'test.geojson', 'train.geojson'
 
     if output_file:
-        if not output_file.endswtih('.geojson'):
+        if not output_file.endswith('.geojson'):
             output_file += '.geojson'
         test_out, train_out='test_{}'.format(output_file), 'train_{}'.format(output_file)
 
